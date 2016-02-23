@@ -41,11 +41,11 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>{{ store.product.name }}</td>
-                  <td>${{ store.product.price }}</td>
-                  <td>{{ store.product.description }}</td>
-                  <td><button type='button' class="btn btn-success" ng-show="store.product.canPurchase"><span class="glyphicon glyphicon-shopping-cart"></span> BUY</button></td>
+                <tr ng-repeat="product in store.products" ng-hide="product.soldOut">
+                  <td>{{ product.name }}</td>
+                  <td>${{ product.price }}</td>
+                  <td>{{ product.description }}</td>
+                  <td><button type='button' class="btn btn-success" ng-show="product.canPurchase"><span class="glyphicon glyphicon-shopping-cart"></span> BUY</button></td>
                 </tr>
               </tbody>
             </table>
