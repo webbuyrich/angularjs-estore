@@ -37,6 +37,7 @@
                   <th>Product</th>
                   <th>Price</th>
                   <th>Description</th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>
@@ -44,6 +45,7 @@
                   <td>{{ store.product.name }}</td>
                   <td>${{ store.product.price }}</td>
                   <td>{{ store.product.description }}</td>
+                  <td><button type='button' class="btn btn-success" ng-show="store.product.canPurchase"><span class="glyphicon glyphicon-shopping-cart"></span> BUY</button></td>
                 </tr>
               </tbody>
             </table>

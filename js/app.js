@@ -9,7 +9,8 @@
 	var gem = {
 		name: 'Dodecahedron',
 		price: 2.95,
-		description: 'X number sided square or circle'
+		description: 'X number sided square or circle',
+		canPurchase: true
 	}
 
 
