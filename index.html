@@ -48,33 +48,33 @@
           
         
       </div>
-      <div class="row">
-        <div class="col-md-6">
-            <table class="table" ng-controller="StoreController as store">
-              <thead>
-                <tr>
-                  <th>Product</th>
-                  <th>Price</th>
-                  <th>Description</th>
-                  <th>Image</th>
-                  
-                </tr>
-              </thead>
-              <tbody>
-                <tr ng-repeat="product in store.products" ng-hide="product.soldOut">
-                  <td>{{ product.name }}</td>
-                  <td>{{ product.price | currency }}
-                  <button type='button' class="btn btn-success btn-xs" ng-show="product.canPurchase"><span class="glyphicon glyphicon-shopping-cart"></span> BUY</button>
-                  <button type="button" class="btn btn-default btn-xs" style="color:grey;" ng-hide="product.canPurchase"><span class="glyphicon glyphicon-ban-circle"></span > Sold Out</button>
-                  </td>
-                  <td>{{ product.description }}</td>
-                  <td><img class="img-responsive" ng-src="images/{{ product.images[0].thumb }}-thumb.png" alt=""></td>
-                  
-                </tr>
-              </tbody>
-            </table>
+      
+      <div class="row" ng-controller="StoreController as store">
+        <div class="col-sm-4 col-lg-4 col-md-4" ng-repeat="product in store.products" ng-hide="product.soldOut">
+            <div class="thumbnail">
+                <img class="img-responsive" ng-src="images/{{ product.images[0].thumb }}-full.png" alt="">
+                <div class="caption">
+                    <h4 class="pull-right">{{ product.price | currency}}</h4>
+                    <h4><a href="#">{{ product.name }}</a>
+                    </h4>
+                    <p>{{ product.description }} <a target="_blank" href="http://www.webbuyrich.com">Webbuyrich - I do a lil something something</a>.</p>
+                </div>
+                <div class="ratings">
+                    <p class="pull-right">
+                        <button type='button' class="btn btn-success btn-xs" ng-show="product.canPurchase"><span class="glyphicon glyphicon-shopping-cart"></span> BUY</button>
+                        <button type="button" class="btn btn-default btn-xs" style="color:grey;" ng-hide="product.canPurchase"><span class="glyphicon glyphicon-ban-circle"></span > Sold Out</button>
+                    </p>
+                    <p>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </p>
+                </div>
+            </div>
         </div>
-      </div> 
+        </div> 
     </div><!-- /.container -->
     
     
