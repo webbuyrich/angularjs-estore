@@ -64,7 +64,11 @@
                   <td>{{ product.name }}</td>
                   <td>${{ product.price }}</td>
                   <td>{{ product.description }}</td>
-                  <td><button type='button' class="btn btn-success" ng-show="product.canPurchase"><span class="glyphicon glyphicon-shopping-cart"></span> BUY</button></td>
+                  <td>
+                    <button type='button' class="btn btn-success" ng-show="product.canPurchase"><span class="glyphicon glyphicon-shopping-cart"></span> BUY</button>
+                    <button type="button" class="btn btn-default" style="color:grey;" ng-hide="product.canPurchase"><span class="glyphicon glyphicon-ban-circle"></span > Sold Out</button>
+                    
+                  </td>
                 </tr>
               </tbody>
             </table>
