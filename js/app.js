@@ -10,7 +10,7 @@
 	[
 	  {
 	    "name": "Velity",
-	    "price": "$34.76",
+	    "price": "34.76",
 	    "description": "adipisicing non anim ipsum ullamco ea",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -23,7 +23,7 @@
 	  },
 	  {
 	    "name": "Ovation",
-	    "price": "$89.38",
+	    "price": "89.38",
 	    "description": "dolor deserunt voluptate proident aliquip aliquip",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -36,7 +36,7 @@
 	  },
 	  {
 	    "name": "Obliq",
-	    "price": "$7.75",
+	    "price": "7.75",
 	    "description": "mollit eiusmod ea cillum non officia",
 	    "canPurchase": true,
 	    "soldOut": false,
@@ -49,7 +49,7 @@
 	  },
 	  {
 	    "name": "Gaptec",
-	    "price": "$28.45",
+	    "price": "28.45",
 	    "description": "labore est anim culpa dolore laborum",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -62,7 +62,7 @@
 	  },
 	  {
 	    "name": "Extragene",
-	    "price": "$56.98",
+	    "price": "56.98",
 	    "description": "nisi elit ex ea exercitation est",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -75,7 +75,7 @@
 	  },
 	  {
 	    "name": "Ramjob",
-	    "price": "$47.23",
+	    "price": "47.23",
 	    "description": "sint nostrud sunt ad eu tempor",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -88,7 +88,7 @@
 	  },
 	  {
 	    "name": "Skyplex",
-	    "price": "$30.28",
+	    "price": "30.28",
 	    "description": "nulla nostrud pariatur fugiat irure proident",
 	    "canPurchase": true,
 	    "soldOut": false,
@@ -101,7 +101,7 @@
 	  },
 	  {
 	    "name": "Moreganic",
-	    "price": "$76.83",
+	    "price": "76.83",
 	    "description": "occaecat enim fugiat in ex laboris",
 	    "canPurchase": true,
 	    "soldOut": false,
@@ -114,7 +114,7 @@
 	  },
 	  {
 	    "name": "Brainclip",
-	    "price": "$51.97",
+	    "price": "51.97",
 	    "description": "fugiat ut aliqua nisi cupidatat consequat",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -127,7 +127,7 @@
 	  },
 	  {
 	    "name": "Rameon",
-	    "price": "$66.01",
+	    "price": "66.01",
 	    "description": "consequat veniam ex eu incididunt Lorem",
 	    "canPurchase": true,
 	    "soldOut": false,
@@ -140,7 +140,7 @@
 	  },
 	  {
 	    "name": "Concility",
-	    "price": "$38.85",
+	    "price": "38.85",
 	    "description": "irure sint laboris sunt irure enim",
 	    "canPurchase": true,
 	    "soldOut": false,
@@ -153,7 +153,7 @@
 	  },
 	  {
 	    "name": "Tubesys",
-	    "price": "$47.89",
+	    "price": "47.89",
 	    "description": "in laboris minim aliquip amet nulla",
 	    "canPurchase": true,
 	    "soldOut": false,
@@ -166,7 +166,7 @@
 	  },
 	  {
 	    "name": "Hyplex",
-	    "price": "$23.67",
+	    "price": "23.67",
 	    "description": "mollit magna aute dolore cupidatat reprehenderit",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -179,7 +179,7 @@
 	  },
 	  {
 	    "name": "Kenegy",
-	    "price": "$42.75",
+	    "price": "42.75",
 	    "description": "magna incididunt officia sint incididunt dolor",
 	    "canPurchase": true,
 	    "soldOut": false,
@@ -192,7 +192,7 @@
 	  },
 	  {
 	    "name": "Xumonk",
-	    "price": "$46.13",
+	    "price": "46.13",
 	    "description": "Lorem elit est reprehenderit veniam irure",
 	    "canPurchase": true,
 	    "soldOut": false,
@@ -205,7 +205,7 @@
 	  },
 	  {
 	    "name": "Lumbrex",
-	    "price": "$25.00",
+	    "price": "25.00",
 	    "description": "reprehenderit aute ut officia excepteur reprehenderit",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -218,7 +218,7 @@
 	  },
 	  {
 	    "name": "Zerology",
-	    "price": "$45.71",
+	    "price": "45.71",
 	    "description": "occaecat velit cillum laborum ipsum minim",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -231,7 +231,7 @@
 	  },
 	  {
 	    "name": "Terragen",
-	    "price": "$90.15",
+	    "price": "90.15",
 	    "description": "excepteur ea ea mollit irure consequat",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -244,7 +244,7 @@
 	  },
 	  {
 	    "name": "Imperium",
-	    "price": "$37.10",
+	    "price": "37.10",
 	    "description": "magna fugiat irure sint id deserunt",
 	    "canPurchase": true,
 	    "soldOut": false,
@@ -257,7 +257,7 @@
 	  },
 	  {
 	    "name": "Peticular",
-	    "price": "$8.45",
+	    "price": "8.45",
 	    "description": "anim magna magna sunt id officia",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -270,7 +270,7 @@
 	  },
 	  {
 	    "name": "Proxsoft",
-	    "price": "$62.40",
+	    "price": "62.40",
 	    "description": "amet duis Lorem sit ad consectetur",
 	    "canPurchase": false,
 	    "soldOut": false,
@@ -283,7 +283,7 @@
 	  },
 	  {
 	    "name": "Marvane",
-	    "price": "$98.27",
+	    "price": "98.27",
 	    "description": "consectetur sunt amet aliqua laborum amet",
 	    "canPurchase": false,
 	    "soldOut": false,
