@@ -62,7 +62,7 @@
               <tbody>
                 <tr ng-repeat="product in store.products" ng-hide="product.soldOut">
                   <td>{{ product.name }}</td>
-                  <td>${{ product.price }}</td>
+                  <td>{{ product.price | currency }}</td>
                   <td>{{ product.description }}</td>
                   <td>
                     <button type='button' class="btn btn-success" ng-show="product.canPurchase"><span class="glyphicon glyphicon-shopping-cart"></span> BUY</button>
