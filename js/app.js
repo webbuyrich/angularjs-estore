@@ -10,7 +10,7 @@
 	[
 	  {
 	    "name": "Velity",
-	    "price": "34.76",
+	    "price": "34.78",
 	    "description": "adipisicing non anim ipsum ullamco ea",
 	    "canPurchase": false,
 	    "soldOut": false,
