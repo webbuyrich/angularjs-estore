@@ -6,3 +6,8 @@ body {
   text-align: center;
 }
 
+.ratingSelect{
+	padding-left:0px!important;
+	padding-bottom: 15px;
+}
+

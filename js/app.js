@@ -2,6 +2,13 @@
 
 	var app = angular.module('store', []);
 
+	//REVIEW CONTROLLER
+	app.controller('ReviewController', function(){
+		this.review = {};
+	});
+
+	
+	//STORE CONTROLLER AND GEMS
 	app.controller('StoreController', function(){
 		this.products = gems;
 	});
