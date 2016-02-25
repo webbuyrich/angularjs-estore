@@ -4,7 +4,14 @@
 
 	//REVIEW CONTROLLER
 	app.controller('ReviewController', function(){
+		
 		this.review = {};
+
+		//add a new review
+		this.addReview = function(product){
+			product.reviews.push(this.review);
+			this.review = {};
+		};
 	});
 
 	

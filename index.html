@@ -103,7 +103,7 @@
               </p>
               </blockquote> 
 
-              <form name="reviewForm" ng-controller="ReviewController as reviewCtrl">
+              <form name="reviewForm" ng-controller="ReviewController as reviewCtrl" ng-submit="reviewCtrl.addReview(product)">
                 <blockquote>
                 <p>               
                   <b>{{ reviewCtrl.review.stars }} <span class="glyphicon glyphicon-star" ></span></b> {{ reviewCtrl.review.body }} <br />                
