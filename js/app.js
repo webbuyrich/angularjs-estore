@@ -18,8 +18,20 @@
 	      {
 	        "full": "browns",
 	      	"thumb": "browns"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Ovation",
@@ -31,8 +43,20 @@
 	      {
 	        "full": "seahawks",
 	      	"thumb": "seahawks"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Obliq",
@@ -44,8 +68,20 @@
 	      {
 	        "full": "dolphins",
 	      	"thumb": "dolphins"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Gaptec",
@@ -57,8 +93,20 @@
 	      {
 	        "full": "seahawks",
 	      	"thumb": "seahawks"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Extragene",
@@ -70,8 +118,20 @@
 	      {
 	        "full": "chargers",
 	      	"thumb": "chargers"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Ramjob",
@@ -83,8 +143,20 @@
 	      {
 	        "full": "dolphins",
 	      	"thumb": "dolphins"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Skyplex",
@@ -96,8 +168,20 @@
 	      {
 	        "full": "browns",
 	        "thumb": "browns"
-	        }
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Moreganic",
@@ -108,9 +192,21 @@
 	    "images": [
 	      {
 	        "full": "browns",
-	      "thumb": "browns"
+	      	"thumb": "browns"
 	      }
-	    ]
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Brainclip",
@@ -121,9 +217,21 @@
 	    "images": [
 	      {
 	        "full": "panthers",
-	      "thumb": "panthers"
+	      	"thumb": "panthers"
 	      }
-	    ]
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Rameon",
@@ -134,9 +242,21 @@
 	    "images": [
 	      {
 	        "full": "panthers",
-	      "thumb": "panthers"
+	      	"thumb": "panthers"
 	      }
-	    ]
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Concility",
@@ -148,8 +268,20 @@
 	      {
 	        "full": "eagles",
 	      	"thumb": "eagles"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Tubesys",
@@ -161,8 +293,20 @@
 	      {
 	        "full": "chargers",
 	      	"thumb": "chargers"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Hyplex",
@@ -174,8 +318,20 @@
 	      {
 	        "full": "dolphins",
 	      	"thumb": "dolphins"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Kenegy",
@@ -187,8 +343,20 @@
 	      {
 	        "full": "dolphins",
 	      	"thumb": "dolphins"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Xumonk",
@@ -200,8 +368,20 @@
 	      {
 	        "full": "browns",
 	      	"thumb": "browns"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Lumbrex",
@@ -213,8 +393,20 @@
 	      {
 	        "full": "seahawks",
 	      	"thumb": "seahawks"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Zerology",
@@ -226,8 +418,20 @@
 	      {
 	        "full": "ravens",
 	      	"thumb": "ravens"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Terragen",
@@ -239,8 +443,20 @@
 	      {
 	        "full": "dolphins",
 	      	"thumb": "dolphins"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Imperium",
@@ -252,8 +468,20 @@
 	      {
 	        "full": "seahawks",
 	      	"thumb": "seahawks"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Peticular",
@@ -265,8 +493,20 @@
 	      {
 	        "full": "eagles",
 	      	"thumb": "eagles"
-	      	}
-	    ]
+	      }
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  },
 	  {
 	    "name": "Proxsoft",
@@ -278,7 +518,19 @@
 	      {
 	        "full": "ravens",
 	      	"thumb": "ravens"
-	  		}	
+	  	  }	
+	    ],
+	    "reviews": [
+	    	{
+	    		stars: 5,
+	    		body: "I dig this product!",
+	    		author: "kdurant@nba.com"
+	    	},
+	    	{
+	    		stars: 1,
+	    		body: "This thing sucks!",
+	    		author: "kbryant@nba.com"
+	    	}
 	    ]
 	  },
 	  {
@@ -292,7 +544,19 @@
 	        "full": "seahawks",
 	        "thumb": "seahawks"
 	      }
-	    ]
+	    ],
+	    "reviews": [
+	    	     	{
+	    	     		stars: 5,
+	    	     		body: "I dig this product!",
+	    	     		author: "kdurant@nba.com"
+	    	     	},
+	    	     	{
+	    	     		stars: 1,
+	    	     		body: "This thing sucks!",
+	    	     		author: "kbryant@nba.com"
+	    	     	}
+	    	     ]
 	  }
 	];
 	
