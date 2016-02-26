@@ -11,3 +11,11 @@ body {
 	padding-bottom: 15px;
 }
 
+.ng-invalid.ng-dirty, .ng-invalid.ng-touched{
+	border-color: #d9534f;
+}
+
+.ng-valid.ng-dirty{
+	border-color: #5cb85c;
+}
+
