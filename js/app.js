@@ -14,6 +14,16 @@
 		};
 	});
 
+	//CUSTOM DIRECTIVE FOR PRODUCT TITILE
+	app.directive('productTitle', function(){
+		return{
+			// Type of Directive(E for Element)
+			restrict: 'E',
+			templateUrl: 'product-title.html'
+		};
+
+	});
+
 	
 	//STORE CONTROLLER AND GEMS
 	app.controller('StoreController', function(){
