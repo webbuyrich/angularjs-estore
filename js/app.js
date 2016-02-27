@@ -39,10 +39,7 @@
 
 
 	
-	//STORE CONTROLLER AND GEMS
-	app.controller('StoreController', function(){
-		this.products = gems;
-	});
+	
 
 	var gems = 
 	[
