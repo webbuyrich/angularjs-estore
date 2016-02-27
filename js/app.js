@@ -30,7 +30,7 @@
 			restrict: 'E',
 			templateUrl: 'product-info.html',
 			controller: function(){
-
+				this.products = gems;
 			},
 			controllerAs: 'store'
 		};
