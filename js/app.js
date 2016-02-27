@@ -24,11 +24,15 @@
 
 	});
 
-	//CUSTOM DIRECTIVE FOR PRODUCT INFO
+	//CUSTOM DIRECTIVE FOR PRODUCT INFO and ADDING CONTROLLER TO DIRECTIVE
 	app.directive('product-info',function(){
 		return{
 			restrict: 'E',
-			templateUrl: 'product-info.html'
+			templateUrl: 'product-info.html',
+			controller: function(){
+
+			},
+			controllerAs: 'store'
 		};
 	});
 
