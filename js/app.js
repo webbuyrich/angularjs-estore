@@ -1,6 +1,6 @@
 (function(){
 
-	var app = angular.module('store', []);
+	var app = angular.module('gemStore', []);
 
 	//REVIEW CONTROLLER
 	app.controller('ReviewController', function(){
@@ -45,7 +45,7 @@
 			controller: function(){
 				this.products = gems;
 			},
-			controllerAs: 'store'
+			controllerAs: 'stores'
 		};
 	});
 
