@@ -25,7 +25,7 @@
 	});
 
 	//CUSTOM DIRECTIVE FOR PRODUCT INFO and ADDING CONTROLLER TO DIRECTIVE
-	app.directive('product-info',function(){
+	app.directive('productInfo',function(){
 		return{
 			restrict: 'E',
 			templateUrl: 'product-info.html',
@@ -35,6 +35,8 @@
 			controllerAs: 'store'
 		};
 	});
+
+
 
 	
 	//STORE CONTROLLER AND GEMS
