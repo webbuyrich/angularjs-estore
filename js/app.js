@@ -24,6 +24,14 @@
 
 	});
 
+	//CUSTOM DIRECTIVE FOR PRODUCT INFO
+	app.directive('product-info',function(){
+		return{
+			restrict: 'E',
+			templateUrl: 'product-info.html'
+		};
+	});
+
 	
 	//STORE CONTROLLER AND GEMS
 	app.controller('StoreController', function(){

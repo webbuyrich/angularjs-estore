@@ -46,33 +46,9 @@
           <p class="lead">This is a demo of using AngularJS to create a list of items for purchase. This just a demo. I won't make you sign no prenuptial!</p>  
       </div>
       
-      <div class="row" ng-controller="StoreController as store">
-        <div class="col-sm-4 col-lg-4 col-md-4" ng-repeat="product in store.products" ng-hide="product.soldOut">
-            <div class="thumbnail">
-                <img class="img-responsive" ng-src="images/{{ product.images[0].thumb }}-full.png" alt="">
-                <div class="caption">
-                    <product-title></product-title>
-                    <img ng-src="images/{{product.images[0].thumb}}-thumb.png" alt="" style="border: 1px solid #000; padding: 2px;">
-                    <p>{{ product.description }} <a target="_blank" href="http://www.webbuyrich.com">Webbuyrich - I do a lil something something</a>.</p>
-                    <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#team-spec-{{ $index }}">View Info</button>                    
-                    <hr />
-                    <div class="ratings">
-                        <p class="pull-right">
-                            <button type='button' class="btn btn-success " ng-show="product.canPurchase"><span class="glyphicon glyphicon-shopping-cart"></span> BUY</button>
-                            <button type="button" class="btn btn-default btn-sm" style="color:grey;" ng-hide="product.canPurchase"><span class="glyphicon glyphicon-ban-circle"></span > Sold Out</button>
-                        </p>
-                        <p style="visibility:hidden;">
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <span class="glyphicon glyphicon-star"></span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
+      <product-info class="row" ng-controller="StoreController as store">
+        
+      </product-info>
     </div><!-- /.container -->
 
     
