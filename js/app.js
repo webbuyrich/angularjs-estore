@@ -37,6 +37,19 @@
 	});
 
 
+	//CUSTOM DIRECTIVE FOR PRODUCT MODAL and ADDING CONTROLLER TO DIRECTIVE
+	app.directive('productModal',function(){
+		return{
+			restrict: 'E',
+			templateUrl: 'product-modal.html',
+			controller: function(){
+				this.products = gems;
+			},
+			controllerAs: 'store'
+		};
+	});
+
+
 
 	
 	
