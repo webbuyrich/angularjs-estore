@@ -1,0 +1,13 @@
+<h4>Description</h4>
+<p>{{ product.description }}</p>
+<br />
+<h4>Specs</h4>
+<p>{{ product.description }}</p>
+<br />
+<h4>Ratings</h4>
+<blockquote ng-repeat="review in product.reviews">
+<p>               
+  <b>{{ review.stars }} <span class="glyphicon glyphicon-star" ></span></b> {{ review.body }} <br />
+  -{{ review.author}}
+</p>
+</blockquote> 
