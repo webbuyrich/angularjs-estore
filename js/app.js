@@ -1,6 +1,6 @@
 (function(){
 
-	var app = angular.module('gemStore', []);
+	var app = angular.module('store', []);
 
 	//REVIEW CONTROLLER
 	app.controller('ReviewController', function(){
@@ -33,19 +33,6 @@
 				this.products = gems;
 			},
 			controllerAs: 'store'
-		};
-	});
-
-
-	//CUSTOM DIRECTIVE FOR PRODUCT MODAL and ADDING CONTROLLER TO DIRECTIVE
-	app.directive('productModal',function(){
-		return{
-			restrict: 'E',
-			templateUrl: 'product-modal.html',
-			controller: function(){
-				this.products = gems;
-			},
-			controllerAs: 'stores'
 		};
 	});
 
