@@ -1,6 +1,6 @@
 (function(){
 
-	var app = angular.module('store', []);
+	var app = angular.module('gemStore', []);
 
 	//REVIEW CONTROLLER
 	app.controller('ReviewController', function(){
@@ -24,11 +24,34 @@
 
 	});
 
-	
-	//STORE CONTROLLER AND GEMS
-	app.controller('StoreController', function(){
-		this.products = gems;
+	//CUSTOM DIRECTIVE FOR PRODUCT INFO and ADDING CONTROLLER TO DIRECTIVE
+	app.directive('productInfo',function(){
+		return{
+			restrict: 'E',
+			templateUrl: 'product-info.html',
+			controller: function(){
+				this.products = gems;
+			},
+			controllerAs: 'store'
+		};
 	});
+
+	//CUSTOM DIRECTIVE FOR PRODUCT INFO and ADDING CONTROLLER TO DIRECTIVE
+	app.directive('productModal',function(){
+		return{
+			restrict: 'E',
+			templateUrl: 'product-modal.html',
+			controller: function(){
+				this.products = gems;
+			},
+			controllerAs: 'stores'
+		};
+	});
+
+
+
+	
+	
 
 	var gems = 
 	[
